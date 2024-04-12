@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ресторан LERO</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+        background-image: url('./foto/fon3.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+        .first-product {
+        margin-top: 50px;
+        }
+        .product-card {
+            border: 1px solid #000000;
+            border-radius: 5px;
+            width: 450%;
+            padding: 20px;
+            text-align: center;
+            background-color: #494d4e;
+        }
+        .product-name {
+            margin-bottom: 10px;
+            font-size: 20px;
+            color: #ffffff;
+        }
+        .product-price {
+            margin-bottom: 15px;
+            font-size: 18px;
+            color: #ffffff;
+        }
+        .buy-button {
+            background-color: #ffa700;
+            color: white;
+            padding: 10px 25px;
+            text-decoration: none;
+            border-radius: 20px;
+        }
+        .buy-button:hover {
+            background-color: #ffffff;
+        }
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #444447;
+            color: white;
+            text-align: center;
+            padding: 1px 0;
+        }
+        header {
+            background-color: #444447;
+        }
+        .Reviews {
+            border: 1px solid #000000;
+            border-radius: 5px;
+            width: 1150px;
+            padding: 100px;
+            text-align: center;
+            background-color: #444447;
+            position: absolute;
+            left: 405px;
+        }
+        .Reviews h2 {
+            background-color: #ffa700;
+            color: white;
+            border-radius: 30px;
+            padding: 1px;
+            text-align: center;
+            width: 320px;
+            margin: 0 auto 20px auto;
+            position: absolute;
+            top: 30px;
+            left: 415px;
+        }
+        .Reviews-yes-button {
+            background-color: #ffa700;
+            color: white;
+            padding: 10px 40px;
+            position: absolute;
+            text-decoration: none;
+            border-radius: 20px;
+            top: 120px;
+            left: 450px;
+        }
+        .Reviews-yes-button:hover {
+            background-color: #ffffff;
+        }
+        .Reviews-no-button {
+            background-color: #9c6601;
+            color: white;
+            padding: 10px 40px;
+            position: absolute;
+            text-decoration: none;
+            border-radius: 20px;
+            top: 120px;
+            left: 590px;
+        }
+        .Reviews-no-button:hover {
+            background-color: #724a01;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">LERO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./index.html">Головна</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./menu.html">Меню</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./reservation.html">Бронювання</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contacts.html">Контакти</a>
+                </li>
+            </ul>
+        </div>
+    </nav>   
+    <div class="container">
+        <div class="row justify-content-left">
+            <div class="col-lg-3 col-md-6 mb-4 first-product">
+                <div class="product-card">
+                    <div class="product-name">Дзвінок на гарячу лінію</div>
+                    <a href="#" class="buy-button">Дзвінок</a>
+                </div>
+            </div>
+        </div>
+        <div class="Reviews">
+            <h2>Чи подобається вам наш ресторан?</h2>
+            <a href="#" class="Reviews-yes-button">Так</a>
+            <a href="#" class="Reviews-no-button">Ні</a>
+        </div>
+    </div>
+    <div class="footer">
+        Адрес: Буча, вул. Нове Шосе, 8а | Контакти: 098-875-18-17
+    </div> 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
